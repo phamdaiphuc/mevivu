@@ -12,160 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!--LINK FILE CSS -->
+    <link rel="stylesheet" href="a.css">
 </head>
 <style>
 
 
-
-body{
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-
-}
- /*phan navigation cua trnag*/
- 
- 
- /*phan bóng va mau của thanh navigation*/
- .navigation{
-   background-color: white;
- }
- 
-
- .shadow-bottom {
-  box-shadow: 0 5px 5px -5px #333;
-}
-/*phan noi dung cua navigation*/
-.content-nav li{
-  display:inline
-}
-.content-nav li>a{
-  text-decoration:none
-}
-/*  thẻ a trang chủ*/
-.home a{
-  color:#999;
-
-}
-.home a:hover{
-  color: #268EFF
-}
-/*thẻ a của Chính SVC*/
-
-.list-nav>a{
- 
-  color:#268EFF;
-}
- 
-
-
-
- /*Phan css của slider left ( chuyên mục thông tin )*/
- .modal .modal-dialog {
-	position: fixed;
-	margin: auto;
-	width: 320px;
-	height: 100%;
-	transform: translate3d(0%, 0, 0);
-}
-.modal .modal-content {
-	height: 100%;
-	overflow-y: auto;
-}
-.modal .modal-body {
-	padding: 15px 15px 80px;
-}
-.modal.left.fade .modal-dialog {
-	left: -320px;
-	transition: opacity 0.1s linear, left 0.1s ease-out;
-}
-.modal.left.fade.show .modal-dialog {
-	left: 0;
-}
-.modal.right.fade .modal-dialog {
-	right: -320px;
-	transition: opacity 0.1s linear, right 0.1s ease-out;
-}
-.modal.right.fade.show .modal-dialog {
-	right: 0;
-}
-
-/* ----- MODAL STYLE ----- */
-.modal-content {
-	border-radius: 0;
-	border: none;
-}
-.modal-header {
-	border-bottom-color: #eeeeee;
-	background-color: #fafafa;
-}
-
-.list-group{
-  font-size: 14px;
-}
-.content-list{
-  margin-top: -10px;
-}
-
-.content-hover-border{
-  color: #333333;
-  background-color:#F1F1F1;
-  transition-property: color;
-  transition-duration: 0.5s;
-}
-.content-hover-border:hover{
-  color:white;
-  background-color:red;
-}
-
-.content-hover{
-  background:white;
-  color:#333333;
-  transition-property: color;
-  transition-duration: 1s;
-}
-.content-hover:hover{
-  color:red ;
-  background-color:white;
-  transition: .25s all ease;
-  transition-delay: .25s;
-}
-
-.static-detail .title {
-    text-transform: uppercase;
-    font-family: 'Roboto',sans-serif;
-    color: #111;
-    border-bottom: 2px solid #bb0029;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    
-}
-
-.detail-static{
-  line-height: 1.5;
-  font-size: 14px;
-}
-.detail-static a{
-  text-decoration: none;
-  color: #bb0029;
-}
-
-/*ẩn nút btn*/
-.btn {
-	display: none;
-  background:#333333;
-  color:white;
-  
-}
-
-/*hiển thị nút button khi reponsive trang*/
-@media screen and ( max-width:800px){
-	.btn{
-		display:inline;
-	}
-  .sliderbar{
-    display:none
-  }
-}
 
 /**/
 </style>
@@ -215,7 +67,7 @@ body{
 
 
         <!--phan ket thuc cua chuyen muc-->
-        <div class="col-lg-8 col-md-7 col-12 bg-warning">
+        <div class="col-lg-8  col-md-7 col-12  align-content-center">
         <div class="btn-content-hidden text-right">
           <button  type="button" class="btn title m-2  " data-toggle="modal" data-target="#leftModal">
             Menu
